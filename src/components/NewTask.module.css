@@ -1,0 +1,42 @@
+.wrapper {
+    max-width: 46rem;
+    margin: auto;
+    margin-top: -1.5rem;
+
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.5rem;
+}
+
+.wrapper input {
+    border-radius: 8px;
+    height: 3rem;
+    padding: 0 1rem;
+    border: 1px solid;
+    border-color: var(--gray-700);
+    background-color: var(--gray-500);
+    color: var(--gray-300);
+}
+
+.wrapper input:focus {
+    border-color:var(--purple-dark);
+    color: var(--gray-100);
+    outline: none;
+}
+
+.wrapper button {
+    padding: 0 1rem;
+    color: var(--gray-100);
+    background-color: var(--blue-dark);
+    border-radius: 8px;
+    border: 0;
+    font-weight: var(--font-weight-bold);
+    transition: background-color 0.1s;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.wrapper button:hover {
+    background-color: var(--blue);
+}

@@ -1,0 +1,37 @@
+.info {
+    margin-bottom: 2rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    color: var(--gray-200);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-sm);
+}
+
+.info div {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.info > div:first-child > span {
+    color: var(--blue);
+}
+
+.info > div:nth-child(2) > span {
+    color: var(--purple);
+}
+
+.info > div > div {
+    padding: 0 0.5rem;
+    border-radius: 8px;
+    background-color: var(--gray-400);
+}
+
+.info > div > div span {
+    padding: 0;
+    margin: 0;
+}
+
+
+
